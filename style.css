@@ -2,9 +2,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #fff;
+  color: #0e0f0f;
   font-family: "Poppins", sans-serif;
+
 }
+
+.digital-marketing {
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 15pt;
+}
+
 nav {
   position: absolute;
   width: 100%;
@@ -16,6 +24,7 @@ nav {
 .container {
   height: 100vh;
 }
+
 .container img {
   width: 100%;
   position: absolute;
@@ -23,21 +32,27 @@ nav {
   object-fit: cover;
   z-index: -1;
 }
+
 .main-title {
   position: absolute;
   top: 30%;
   left: 50%;
-  font-size: 6rem;
+  font-size: 3rem;
   transform: translate(-50%, -30%);
+}
+
+.main-title span {
+  color: rgb(232, 122, 122);
 }
 
 .content {
   width: 100%;
-  background: rgb(24, 24, 24);
+  background: rgb(85, 241, 241);
   min-height: 100vh;
   z-index: 2;
   position: absolute;
 }
+
 .content-images {
   display: flex;
   justify-content: space-around;
