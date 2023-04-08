@@ -103,16 +103,27 @@ nav ul li a:hover {
 
 .main-title {
   position: absolute;
-  top: 20%;
+  top: 40%;
   left: 50%;
   font-size: 5.5rem;
-  transform: translate(-30%, 15%);
+  transform: translate(-30%, -15%);
+  line-height: 0.8em;
+  line-break: 3px;
+  
+  
+  
 
 }
 
 .main-title span {
   color: rgb(232, 122, 122);
+  margin: -10%;
+
 }
+
+/* h2{
+  background-color: aqua;
+} */
 
 .content {
   width: 100%;
