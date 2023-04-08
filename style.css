@@ -13,8 +13,6 @@
   font-size: 15pt;
   border: 5px solid wheat;
 
-  display: flex;
-
 }
 
 
@@ -42,13 +40,16 @@ nav ul li a {
   padding: 15px;
   right: 20%;
 
+
 }
 
-button {
+.gf {
   font-weight: bold;
   color: aliceblue;
-  /* background-color: red; */
-  border-radius: 2px;
+  background-color: red;
+  border: 2px solid red;
+  border-radius: 20px;
+  margin:
 }
 
 
@@ -67,10 +68,10 @@ button {
 
 .main-title {
   position: absolute;
-  top: 30%;
-  left: 80%;
+  top: 35%;
+  left: 15%;
   font-size: 3rem;
-  transform: translate(-30%, -30%);
+  transform: translate(-30%, 30%);
 
 }
 
