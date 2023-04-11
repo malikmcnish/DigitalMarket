@@ -137,7 +137,17 @@ nav ul li a:hover {
   position: absolute;
 }
 
+h2 {
+  
+  margin-left: 5%;
+  color: blue;
+
+  
+}
+
+
 .content-images {
+  margin: 3.5% 0 0 0;
   display: flex;
   justify-content: space-around;
   align-items: center;
